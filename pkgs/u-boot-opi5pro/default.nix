@@ -21,8 +21,8 @@ buildUBoot {
   extraPatches = [
     (fetchurl {
       name = "add-orangepi5-pro-support.patch";
-      url = "https://raw.githubusercontent.com/armbian/build/main/patch/u-boot/v2025.07/board_orangepi5pro/0001-add-orangepi5-pro-support.patch";
-      hash = "sha256-cU7V/IloWE/WAl4+V5TRc7rwGriU3XHzW8NDQcRj7SI=";
+      url = "https://raw.githubusercontent.com/armbian/build/refs/heads/main/patch/u-boot/v2025.10/board_orangepi5pro/0001-rockchip-rk3588-Add-support-for-the-OrangePI-5-Pro.patch";
+      hash = "sha256-6F05Vk4WV1s2XxIf0aXH7h44/sFbuYay02NLODcpSxs=";
     })
   ];
   filesToInstall = [
